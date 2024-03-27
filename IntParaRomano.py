@@ -266,7 +266,7 @@ class Solution:
             if i == lenlist - 1:
                 string_num = ''.join(list_num)
                 return string_num
-roman_number = 1023
+roman_number = int(input('Digite o número que quer transformar em Romano:'))
 print(Solution.intToRoman(roman_number, roman_number))
     
 
